@@ -27,6 +27,7 @@
     "karma-sourcemap-loader": "0.3.7",
     "karma-webpack": "2.0.2",
     "publish-please": "2.2.0",
+    "typescript": "^2.9.1",
     "webpack": "2.2.0"
   },
   "scripts": {
@@ -49,6 +50,8 @@
     "synchronization"
   ],
   "main": "dist/sync-client.js",
+  "typings": "src/index.d.ts",
+  "jsnext:main": "src/index.js",
   "dependencies": {
     "dexie": "2.x.x",
     "dexie-observable": "1.0.0-beta.4",
